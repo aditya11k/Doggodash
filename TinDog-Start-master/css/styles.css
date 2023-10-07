@@ -10,7 +10,7 @@ h1
     
 }
 h2{
-    font-size: 3rem;
+    font-size: 4rem;
 }
 h3
 {
@@ -20,7 +20,7 @@ h3
 
 #title
 {
-    background: #ff4c68;
+    background: #ff8a88;
 }
 
 .navbar
@@ -64,13 +64,13 @@ right: 20%;
 }
 .x
 {
-    color: #ff4c68;
+    color: #ff4868;
     font-size: 5rem;
     padding-bottom: 10%;
 }
 .x:hover
 {
-    color: coral;
+    color: rgb(80, 205, 255);
 }
 #features
 {
@@ -91,7 +91,7 @@ right: 20%;
 {
     padding: 7% 15%;
     text-align: center;
-    background-color: #ff4c68;
+    background-color: #92cd5e;
     color: aliceblue;
     font-family: 'Montserrat', sans-serif;
 }
