@@ -1,35 +1,19 @@
+/* Reset and global styles */
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
 }
 
-h1 {
-    color: aliceblue;
-    font-size: 3rem;
-    line-height: 1.5;
-}
-
-h2 {
-    font-size: 4rem;
-}
-
-h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.4rem;
-}
-
+/* Header styles */
 #title {
     background: #ff8a88;
     padding: 3% 0;
+    text-align: center;
 }
 
 .navbar {
     padding: 0;
-}
-
-.container-fluid {
-    padding: 3% 15% 7%;
 }
 
 .navbar-brand {
@@ -48,6 +32,22 @@ h3 {
     font-size: 1.2rem;
     font-family: 'Montserrat-Light', sans-serif;
     color: aliceblue;
+}
+
+/* Typography */
+h1 {
+    color: aliceblue;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
 }
 
 /* Download Buttons */
@@ -72,6 +72,7 @@ h3 {
     color: rgb(80, 205, 255);
 }
 
+/* Features section */
 #features {
     padding: 7% 15%;
     background-color: #fff;
@@ -84,6 +85,7 @@ h3 {
     padding: 5%;
 }
 
+/* Testimonials section */
 #testimonials {
     padding: 7% 15%;
     text-align: center;
@@ -98,6 +100,7 @@ h3 {
     margin: 20px;
 }
 
+/* Press section */
 #press {
     text-align: center;
     background-color: #ff4c68;
@@ -108,6 +111,7 @@ h3 {
     width: 15%;
 }
 
+/* Pricing section */
 #pricing {
     text-align: center;
     padding: 100px;
@@ -121,6 +125,7 @@ h3 {
     padding: 3% 2%;
 }
 
+/* Responsive design */
 @media (max-width: 993px) {
     #title {
         text-align: center;
@@ -133,6 +138,7 @@ h3 {
     }
 }
 
+/* Call to Action (CTA) section */
 #cta {
     background-color: #ff4c68;
     font-family: 'Montserrat', sans-serif;
@@ -141,6 +147,7 @@ h3 {
     padding: 5% 20%;
 }
 
+/* Footer section */
 #footer {
     text-align: center;
     padding: 1% 0%;
