@@ -1,161 +1,151 @@
-body{
+body {
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
 }
-h1
-{
-   
+
+h1 {
     color: aliceblue;
     font-size: 3rem;
     line-height: 1.5;
-    
 }
-h2{
+
+h2 {
     font-size: 4rem;
 }
-h3
-{
+
+h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.4rem;
 }
 
-#title
-{
+#title {
     background: #ff8a88;
+    padding: 3% 0;
 }
 
-.navbar
-{
-    padding: 0 0 4.5rem;
+.navbar {
+    padding: 0;
 }
-.container-fluid
-{
+
+.container-fluid {
     padding: 3% 15% 7%;
 }
-.navbar-brand
-{
+
+.navbar-brand {
     font-family: 'Ubuntu';
     font-size: 2.5rem;
     font-weight: bold;
     line-height: 1;
     color: aliceblue;
 }
-.nav-item
-{
+
+.nav-item {
     padding: 18px;
 }
-.nav-link
-{
+
+.nav-link {
     font-size: 1.2rem;
     font-family: 'Montserrat-Light', sans-serif;
     color: aliceblue;
 }
 
 /* Download Buttons */
-.download-button
-{
+.download-button {
     margin: 5% 3% 5% 0;
 }
-.title-class
-{
-width: 20%;
-transform: rotate(25deg);   
-position: absolute;
-right: 20%;
+
+.title-class {
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
 }
-.x
-{
+
+.x {
     color: #ff4868;
     font-size: 5rem;
     padding-bottom: 10%;
 }
-.x:hover
-{
+
+.x:hover {
     color: rgb(80, 205, 255);
 }
-#features
-{
+
+#features {
     padding: 7% 15%;
     background-color: #fff;
     position: relative;
     z-index: 1;
 }
-.feature-box
-{
+
+.feature-box {
     text-align: center;
     padding: 5%;
 }
 
-
-
-#testimonials
-{
+#testimonials {
     padding: 7% 15%;
     text-align: center;
     background-color: #92cd5e;
     color: aliceblue;
     font-family: 'Montserrat', sans-serif;
 }
-.tes-img
-{
+
+.tes-img {
     width: 10%;
     border-radius: 100%;
     margin: 20px;
 }
-#press
-{
+
+#press {
     text-align: center;
     background-color: #ff4c68;
     padding: 30px;
 }
 
-.fd
-{
+.fd {
     width: 15%;
 }
-#pricing
-{
+
+#pricing {
     text-align: center;
     padding: 100px;
 }
-.card-group
-{
+
+.card-group {
     padding: 0% 5%;
 }
-.pc
-{
+
+.pc {
     padding: 3% 2%;
 }
 
-@media (max-width:993px)
-{
-    #title
-    {
+@media (max-width: 993px) {
+    #title {
         text-align: center;
     }
-    .title-class
-    {
+
+    .title-class {
         position: static;
         transform: rotate(0);
-        size: 50%;
+        width: 50%;
     }
 }
 
-#cta
-{
+#cta {
     background-color: #ff4c68;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     color: #fff;
     padding: 5% 20%;
-    
 }
 
-#footer
-{
+#footer {
     text-align: center;
     padding: 1% 0%;
 }
-.op
-{
+
+.op {
     margin: 10px 15px;
 }
